@@ -4,7 +4,7 @@
 </h1>
 
 <h1 align="center">
-  <img alt="bannerDecodificador" title="bannerDecodificador" src="./assets/Video_AppAntiTriteza.gif" />
+  <img alt="videoApp" title="videoApp" src="app/src/main/java/assets/Video_AppAntiTriteza.gif"/>
 </h1>
 
 **App Anti-Tristeza** é um aplicativo Android criado com o objetivo de trazer alegria e diversão aos usuários, através de interações simples que geram um sorriso ao longo do tempo. Ao clicar em um botão, o contador aumenta e o smiley muda, tornando o usuário cada vez mais feliz!
