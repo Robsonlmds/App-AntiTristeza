@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tv_numero"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imv_smile"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="96dp"
+        android:layout_marginEnd="70dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/smile01" />
+
+    <TextView
+        android:id="@+id/tv_zerar"
+        android:layout_width="273dp"
+        android:layout_height="57dp"
+        android:layout_marginBottom="68dp"
+        android:autoSizeTextType="uniform"
+        android:onClick="ZerarTudo"
+        android:text="ZERAR CONTADOR"
+        android:textAllCaps="true"
+        android:textDirection="firstStrongRtl"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/bt_cliqueaqui"
+        android:layout_width="220dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="212dp"
+        android:text="Clique aqui para ser feliz"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_shownumero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="60sp"
+        app:layout_constraintBottom_toTopOf="@+id/bt_cliqueaqui"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imv_smile" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
