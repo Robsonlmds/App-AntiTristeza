@@ -32,3 +32,9 @@
    - 20 cliques: Smiley ainda mais feliz.
    - 100 cliques: Smiley extremamente feliz!
 3. **Resetar o App**: Ao clicar no botão de reset, o contador volta para zero e o smiley volta à sua forma original.
+
+
+
+<h1 align="center">
+<img src="https://readme-typing-svg.herokuapp.com/?font=Silkscreen&size=35&center=true&vCenter=true&width=700&height=70&duration=5000&lines=Obrigado+pela+atenção!;" />
+</h1>
